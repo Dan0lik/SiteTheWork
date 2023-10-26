@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&subset=cyrillic');
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: ".";
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+
+.ico-wrap {
+  color: #838FE6;
+  width: 50px;
+  height: 50px;
+  margin: 25px 20px 2px 2px;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid #838FE6;
+  float: left;
+}
+
+.ico-contact {
+  line-height: 1.9 !important;
+}
+
+.descript-wrapper {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.aio-icon-title {
+  font-size: 18px;
+  color: #838FE6;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .descript-wrapper,
+  .ico-wrap {
+    float: none;
+    text-align: center;
+  }
+  .ico-wrap {
+    margin: 0 auto 15px auto;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+}
+
+.container134 {
+  width: 510px;
+  margin: 0 auto;
+  padding: 0 10px;
+  padding-top: 0px;
+}
+
+nav {
+  background-color: #fff;
+  padding: 0 10px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.5);
+}
+
+nav ul { 
+  margin: 20px auto;
+  list-style: none;
+  text-align: center; 
+}
+
+nav ul li {
+ display: inline-block;
+}
+
+nav ul li a { 
+  display: block; 
+  color: #333;
+  text-decoration: none;
+  padding: 5px 30px;
+}
+
+nav ul li a:hover { 
+  background-color: #eee;
+}
+
+a.idTop {
+  position: fixed; /*позиционирование кнопки фиксированное*/
+  z-index: 9999; /*отображаем поверх всех элементов*/
+  bottom: 0%; /*положение снизу*/
+  right: 0%; /*положение справа*/
+  /*фон, можно указать любую картинку*/
+  opacity: .6; /*прозрачность*/
+  color: #fff; /*цвет текста*/
+  padding: 10px; /*внутренние отступы*/
+  margin: 5px 15px 15px 5px; /*внешние отступы*/
+}
+
+a.idTop:hover {
+ opacity: 1;
+}
+
+h1 {
+  width: 255px;
+  margin: 0 auto 8px;
+  font-family: "Georgia", serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+h2 {
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 12px;
+}
+
+.container {
+  width: 510px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  min-width: 550px;
+  height: 186px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  background-image: url(gaz2.jpg);
+  background-size: cover;
+  color: #ffffff;
+}
+
+.site-header p {
+  width: 255px;
+  margin: 0 auto 26px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px; 
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  width: 510px;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+  padding-top: 25px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+}
+
+.feature-furniture {
+  padding-top: 80px;
+  background-image: url("18.png");
+  background-size:80px ;
+}
+
+.feature-lighting {
+  padding-top: 80px;
+  background-image: url("kolonka1.jpg");
+  background-size:80px ;
+}
+
+.feature-accessories {
+  padding-top: 80px;
+  background-image: url("d0.png");
+  background-size:80px ;
+}
+
+.advantages {
+  width: 510px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+.advantages-list {
+  padding: 0;
+  list-style: none;  
+}
+
+.advantages-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 20px solid #838FE6;
+  color: #000000;
+}
+
+.standard {
+  border-color: #838FE6;
+  color: #000000;
+}
+
+.vip {
+  border-color: #838FE6;
+  color: #000000;
+}
+
+.site-footer {
+  min-width: 550px;
+  background-image: url(gaz3.jpg);
+  color: #ffffff;
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+
+.social-icons-1 {
+  padding: 0;
+  list-style: none;
+  margin: 10px;
+}
+.social-icons-1 li {
+  display: inline-block;
+  position: relative;
+  font-size: 24px;
+}
+
+.social-icons-1 i,
+.social-icons-1 img {
+  color: #fff;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 24px;
+  height: 24px;
+  text-align:center;
+  transition: all 0.3s ease-out;
+}
+
+.social-icons-1 a {
+  display: inline-block;
+}
+
+.social-icons-1 a:before {
+  transform: scale(1);
+  content: "VK" color:black;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #337AB7, #2d6b9f);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-out;
+}
+
+.social-icons-1 a:hover:before {
+  transform: scale(0);
+  transition: all 0.3s ease-in;
+}
+
+.social-icons-1 a:hover i,
+.social-icons-1 a:hover img {
+  transform: scale(1.8);
+  color: #337AB7;
+  transition: all 0.3s ease-in;
+}
+
